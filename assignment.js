@@ -47,3 +47,14 @@ function hotelCost(stay) {
     //***************** */
 
     // assignment task 4
+
+    function megaFriend(str) {
+        var strSplit = str.split(' ');
+        var longestWord = strSplit[0];
+        for(var i = 0; i < strSplit.length; i++){
+          if(longestWord.length > strSplit[i].length){
+            longestWord = strSplit;
+           }
+        }
+        return longestWord;
+      }
